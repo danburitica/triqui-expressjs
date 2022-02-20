@@ -1,0 +1,23 @@
+{
+  "name": "api-triqui-danburitica",
+  "version": "1.0.0",
+  "description": "Api Triqui game with Node JS and Express JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danburitica/triqui-expressjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danburitica/triqui-expressjs/issues"
+  },
+  "homepage": "https://github.com/danburitica/triqui-expressjs#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
