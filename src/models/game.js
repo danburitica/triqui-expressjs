@@ -12,7 +12,7 @@ const gameSchema = Schema({
     winner: { type: Boolean, required: true },
   },
   date: {
-    type: Date,
+    type: String,
     required: true,
   },
 });

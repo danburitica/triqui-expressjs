@@ -1,12 +1,15 @@
 const express = require("express");
+const cors = require("cors");
 const mongoose = require("mongoose");
 const gameRoutes = require("./routes/game");
 require("dotenv").config();
+
 const { PORT, MONGO_URI } = process.env;
 
 const app = express();
 
 // Middleware
+app.use(cors());
 app.use(express.json());
 app.use("/api", gameRoutes);
 
