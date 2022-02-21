@@ -1,13 +1,15 @@
 const { Schema, model } = require("mongoose");
 
 const gameSchema = Schema({
-  winnerPlayer: {
+  playerOne: {
     name: { type: String, required: true },
     symbol: { type: String, required: true },
+    winner: { type: Boolean, required: true },
   },
-  loserPlayer: {
+  playerTwo: {
     name: { type: String, required: true },
     symbol: { type: String, required: true },
+    winner: { type: Boolean, required: true },
   },
   date: {
     type: Date,
